@@ -1,0 +1,79 @@
+/* fonts */
+@font-face
+{
+	font-family: 'ABeeZee-Regular';
+	src: url('../fonts/ABeeZee-Regular.otf');
+}
+
+@font-face
+{
+	font-family: 'AftaSansThin-Regular';
+	src: url('../fonts/AlegreyaSans-Regular.otf');
+}
+
+body
+{
+	background-image: url("fond.jpg");
+	font-family: AftaSansThin-Regular, sans-serif;
+}
+
+/* header */
+header
+{
+	border-bottom: 1px solid black;
+	box-shadow: 0px 2px 3px -3px black;
+}
+
+header img
+{
+	border-radius: 50px;
+	box-shadow: 2px 2px 2px black;
+}
+
+li
+{
+	margin-left: 50px;
+	font-size: 24px;
+	font-family: ABeeZee-Regular, sans-serif;
+}
+
+@media all and (max-width: 1410px)
+{
+	li
+	{
+		margin-left: 13px;
+		font-size: 19px;
+	}
+}
+
+a
+{
+	text-decoration: none;
+	color: #02002b;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	font-style: italic;
+	color: #02002b;
+}
+
+/* section */
+h1
+{
+	font-size: 33px;
+}
+
+article
+{
+	font-size: 25px;
+}
+
+@media all and (max-width: 767px)
+{
+	article
+	{
+		font-size: 22px;
+	}
+}
