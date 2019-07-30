@@ -7,21 +7,21 @@
 
 @font-face
 {
-	font-family: 'AftaSansThin-Regular';
+	font-family: 'AlegreyaSans-Regular';
 	src: url('../fonts/AlegreyaSans-Regular.otf');
 }
 
 body
 {
 	background-image: url("fond.jpg");
-	font-family: AftaSansThin-Regular, sans-serif;
+	font-family: AlegreyaSans-Regular, sans-serif;
 }
 
 /* header */
 header
 {
 	border-bottom: 1px solid black;
-	box-shadow: 0px 2px 3px -3px black;
+	box-shadow: 0px 2px 3px -3px black;	
 }
 
 header img
@@ -30,7 +30,12 @@ header img
 	box-shadow: 2px 2px 2px black;
 }
 
-li
+ul
+{
+	list-style-type: circle;
+}
+
+nav ul li
 {
 	margin-left: 50px;
 	font-size: 24px;
@@ -39,10 +44,10 @@ li
 
 @media all and (max-width: 1410px)
 {
-	li
+	nav ul li
 	{
 		margin-left: 13px;
-		font-size: 19px;
+		font-size: 18px;
 	}
 }
 
@@ -60,9 +65,29 @@ a:hover
 }
 
 /* section */
+section
+{
+	font-size: 20px;
+}
+
 h1
 {
 	font-size: 33px;
+	font-weight: bold;
+}
+
+h2
+{
+	font-size: 27px;
+	font-weight: bold;
+	color: #1a150c;
+}
+
+h3
+{
+	font-size: 26px;
+	font-weight: bold;
+	clear: both;
 }
 
 article
@@ -76,4 +101,32 @@ article
 	{
 		font-size: 22px;
 	}
+}
+
+#photo_deshimaru
+{
+	float: right;
+	border: 1px solid black;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px black;
+}
+
+#mini_plan
+{
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+td
+{
+	padding-right: 20px;
+}
+
+@media all and (max-width: 480px)
+{
+	td
+		{
+			padding: 0px 10px 0px 5px;
+			border: 2px solid #02002b;
+		}
 }
