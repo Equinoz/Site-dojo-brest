@@ -35,7 +35,7 @@ ul
 	list-style-type: circle;
 }
 
-nav ul li
+nav li
 {
 	margin-left: 50px;
 	font-size: 24px;
@@ -44,7 +44,7 @@ nav ul li
 
 @media all and (max-width: 1410px)
 {
-	nav ul li
+	nav li
 	{
 		margin-left: 13px;
 		font-size: 18px;
@@ -87,6 +87,7 @@ h3
 {
 	font-size: 26px;
 	font-weight: bold;
+	color: #1a150c;
 	clear: both;
 }
 
